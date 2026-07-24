@@ -75,11 +75,11 @@ Several procurement KPIs were explored:
 - Compliance indicators
 - Savings trends
 
-<img src="../assets/img/countplot_lead_time.png" width="600">
+<img src="{{ site.baseurl }}/assets/img/countplot_lead_time.png" width="600">
 
 _Figure 1. Distribution of Lead Time across purchase orders._
 
-<img src="../assets/img/correlation_heatmap.png" width="600">
+<img src="{{ site.baseurl }}/assets/img/correlation_heatmap.png" width="600">
 
 _Figure 2. Correlation Matrix of procurement KPIs._
 
@@ -96,11 +96,11 @@ The initial Random Forest model achieved strong performance:
 | Recall    | 95.4% |
 | ROC-AUC   | 98.0% |
 
-<img src="../assets/img/feature_importance_rf.png" width="600">
+<img src="{{ site.baseurl }}/assets/img/feature_importance_rf.png" width="600">
 
 _Figure 3. Feature importance from the original Random Forest model._
 
-<img src="../assets/img/confusion_matrix.png" width="600">
+<img src="{{ site.baseurl }}/assets/img/confusion_matrix.png" width="600">
 
 _Figure 4. Confusion Matrix._
 
@@ -135,7 +135,7 @@ Model performance dropped significantly:
 | Recall    | 30.3% |
 | ROC-AUC   | 47.5% |
 
-<img src="../assets/img/leakege_impact.png" width="600">
+<img src="{{ site.baseurl }}/assets/img/leakege_impact.png" width="600">
 
 _Figure 4. Performance comparison before and after removing leakage-related variables._
 
