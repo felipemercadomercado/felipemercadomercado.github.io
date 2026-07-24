@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Predicting Purchase Order Delays"
+date: 2026-07-24
+categories: [Analytics, Procurement, MachineLearning]
+---
+
 # Predicting Purchase Order Delays: A Procurement Analytics Case Study
 
 In procurement operations, delivery delays can have a significant impact on inventory availability, production schedules, supplier performance, and operational costs.
